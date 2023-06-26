@@ -15,8 +15,8 @@ body{
 @media (min-width:1000px) {
     .frame{
         margin: 0;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -82,7 +82,7 @@ body{
 }
 
 .thumb{
-    height: 50%;
+    height: 60%;
     width: 90%;
     border-radius: 10px;
     margin: 2px;
@@ -97,7 +97,7 @@ body{
 
 .desc{
     background-color: rgb(245, 245, 245);
-    height: 48%;
+    height: 40%;
     border-radius: 10px;
     margin: 2px;
 }

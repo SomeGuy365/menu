@@ -18,7 +18,15 @@
                 })
             }
 
-
+        function bread() {
+            movescreen()
+            document.getElementById('extra1').style.display = 'block'
+        }
+        function cheese() {
+            movescreen()
+            document.getElementById('extra2').style.display = 'block'
+        }
+        /*
         function showinfo(item) {
             document.getElementById('extra').style.display = 'block'
             document.getElementById('info-title').innerText = ('')
@@ -36,35 +44,63 @@
                 document.getElementById('info-facts').append('STEP 1:Put a large saucepan of water on to boil.')
                 const steps = document.createElement('div')
                 const steps2 = document.createElement('div')
+
                 steps.style = 'padding-bottom:5px;'
                 steps2.style = 'padding-bottom:5px'
                 document.getElementById('info-facts').appendChild(steps)
                 document.getElementById('info-facts').append('STEP 2:Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.')
                 document.getElementById('info-facts').appendChild(steps2)
                 document.getElementById('info-facts').append('STEP 3:Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.')
+                document.getElementById('info-facts').appendChild("\n")
+                document.getElementById('info-facts').append("yay")
             }
 
             movescreen()
         }
-
+        */
         function hideinfo() {
             console.log('inactive')
-            document.getElementById('extra').style.display = 'none'
+            document.getElementById('extra1').style.display = 'none'
+            document.getElementById('extra2').style.display = 'none'
         }
-    </script>
+        </script>
 
     <div class="frame" id="frame">
-        <div id="extra" class="extra">
+        <div id="extra1" class="extra">
             <div>
                 <button class="exit" onclick="hideinfo()">X</button>
-                <div class="info-title" id="info-title"></div>
+                <div class="info-title" id="info-title">Garlic Bread</div>
             </div>
             <div style="display: flex;justify-content: center;font-size: 30px;">Ingredients</div>
             <hr style="width: 80%;border-color: black;">
-            <span id="info-main" class="info-main"></span>
+            <span id="info-main" class="info-main">
+                2 ciabatta loaves,140g butter(softened),4-6 garlic cloves(crushed),handful parsley(chopped),2tbsp finely grated parmesan'
+            </span>
             <div style="display: flex;justify-content: center;font-size: 30px; margin-top: 40px;">Recipe</div>
             <hr style="width: 80%;border-color: black;">
-            <span id="info-facts" class="info-main"></span>
+            <span id="info-facts" class="info-main">
+                Slice the bread in half lengthwise. Toast the crust side for 2 mins until really crispy. Mix together butter, garlic and parsley in a bowl. Spread over the cut bread halves. Sprinkle over the Parmesan. Just before serving place on a baking sheet, then cook under a hot grill for 5 mins until toasty and lightly golden. Let it cool for 1 min before cutting into thick slices.
+            </span>
+        </div>
+        <div id="extra2" class="extra">
+            <div>
+                <button class="exit" onclick="hideinfo()">X</button>
+                <div class="info-title" id="info-title">Carbonara</div>
+            </div>
+            <div style="display: flex;justify-content: center;font-size: 30px;">Ingredients</div>
+            <hr style="width: 80%;border-color: black;">
+            <span id="info-main" class="info-main">
+                100g pancetta, 50g pecorino cheese, 50g parmesan, 3 large eggs, 350g spaghetti, 2 plump garlic cloves peeled and left whole, 50g unsalted butter, sea salt and freshly ground black pepper
+            </span>
+            <div style="display: flex;justify-content: center;font-size: 30px; margin-top: 40px;">Recipe</div>
+            <hr style="width: 80%;border-color: black;">
+            <span id="info-facts" class="info-main">
+                <ol type="1" style="text-align: left;">
+                    <li>Put a large saucepan of water on to boil.</li>
+                    <li>Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.</li>
+                    <li>Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.</li>
+                </ol>
+            </span>
         </div>
         <div class="header">
             <hr class="head-line">
@@ -74,7 +110,7 @@
         <div class="foodframe">
             <hr class="between">
             <div class="starters">
-                <div class="start-food" onclick="showinfo('Garlic')">
+                <div class="start-food" onclick="bread()">
                     <div class="thumb">
                         <img src="menu-pics/garlicbread.jpeg" class="pic">
                     </div>
@@ -86,9 +122,9 @@
                     </div>
                     <img src="menu-pics/vegetarian.svg" class="veg-pic">
                 </div>
-                <div class="start-food" onclick="showinfo('cheese')">
+                <div class="start-food" onclick="cheese()">
                     <div class="thumb">
-                        <img src="menu-pics/fondue pic.jfif" class="pic">
+                        <img src="menu-pics/carbonara.webp" class="pic">
                     </div>
                     <div class="desc">
                         <span class="title">Carbonara</span>
