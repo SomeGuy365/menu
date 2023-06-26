@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(70, 78, 46);
+    height: 1300px;
+    color: rgb(70, 70, 70);
+}
+
+.frame{
+    background-color: rgb(225, 224, 224);
+    margin: 20px;
+    height: 85%;
+    border-radius: 5px;
+    position: relative;
+}
+
+@media (min-width:1000px) {
+    .frame{
+        margin: 0;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media (min-width:1600px) {
+    .frame{
+        margin: 0;
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+}
+
+.header{
+    font-size: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.head-line{
+    border-color: rgb(70, 78, 46);
+    width: 20%;
+    height: 0;
+}
+
+.between{
+    justify-content: center;
+    width: 90%;
+    height: 0;
+}
+
+.foodframe{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.starters{
+    height: 286px;
+    display: flex;
+}
+
+.start-food{
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(172, 185, 146);
+    height: 266px;
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+    position: relative;;
+}
+
+.veg-pic{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 0px;
+    bottom: 5px;
+}
+
+.start-food:hover{
+    cursor: pointer;
+}
+
+.thumb{
+    height: 50%;
+    width: 90%;
+    border-radius: 10px;
+    margin: 2px;
+    margin-left: 5%;
+}
+
+.pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desc{
+    background-color: rgb(245, 245, 245);
+    height: 48%;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.title{
+    font-size: 30px;
+    text-decoration: underline;
+    display: block;
+}
+
+.info{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.mains{
+    height: 286px;
+    display: flex;
+}
+
+.main-food{
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(172, 185, 146);
+    height: 266px;
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+.deserts{
+    height: 286px;
+    display: flex;
+}
+
+.end-food{
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(172, 185, 146);
+    height: 266px;
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+.moreinfo{
+    background-color: purple;
+    height: 1000px;
+    width: 250px;
+    z-index: 50;
+}
+
+.extra{
+    background-color: rgb(255, 255, 255);
+    display: none;
+    z-index: 50;
+    position: absolute;
+    height: fit-content;
+    border-radius: 10px;
+    width: 660px;
+    left: 10%;
+    top: 500px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 280px;
+    border: solid;
+    color: rgb(70, 70, 70);
+}
+
+.exit{
+    background-color: rgb(233, 229, 214);
+    float: right;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.exit:hover{
+    cursor: pointer;
+}
+
+.info-title{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-main{
+    text-align: center;
+    font-size: 20px;
+}
