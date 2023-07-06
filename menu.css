@@ -110,7 +110,9 @@ body{
 
 .info{
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 0.005;
+    z-index: 50;
 }
 
 .mains{
