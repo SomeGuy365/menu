@@ -130,6 +130,10 @@ body{
     text-align: center;
 }
 
+.main-food:hover{
+    cursor: pointer;
+}
+
 .deserts{
     height: 286px;
     display: flex;
@@ -143,6 +147,10 @@ body{
     margin: 5px;
     width: 50%;
     text-align: center;
+}
+
+.end-food:hover{
+    cursor: pointer;
 }
 
 .moreinfo{
@@ -189,4 +197,14 @@ body{
 .info-main{
     text-align: center;
     font-size: 20px;
+}
+
+.nutri > div{
+    border: solid;
+    flex: 1;
+    height: fit-content;
+}
+
+.nutri{
+    height: fit-content;
 }

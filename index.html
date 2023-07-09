@@ -26,6 +26,10 @@
             movescreen()
             document.getElementById('extra2').style.display = 'block'
         }
+        function brownie() {
+            movescreen()
+            document.getElementById('extra3').style.display = 'block'
+        }
         /*
         function showinfo(item) {
             document.getElementById('extra').style.display = 'block'
@@ -62,10 +66,13 @@
             console.log('inactive')
             document.getElementById('extra1').style.display = 'none'
             document.getElementById('extra2').style.display = 'none'
+            document.getElementById('extra3').style.display = 'none'
         }
         </script>
 
     <div class="frame" id="frame">
+
+
         <div id="extra1" class="extra">
             <div>
                 <button class="exit" onclick="hideinfo()">X</button>
@@ -81,7 +88,32 @@
             <span id="info-facts" class="info-main">
                 Slice the bread in half lengthwise. Toast the crust side for 2 mins until really crispy. Mix together butter, garlic and parsley in a bowl. Spread over the cut bread halves. Sprinkle over the Parmesan. Just before serving place on a baking sheet, then cook under a hot grill for 5 mins until toasty and lightly golden. Let it cool for 1 min before cutting into thick slices.
             </span>
+            <br>
+            <span>
+                Nutrition:
+                <div class="nutri" style="display: flex;gap: 5px;text-align: center;width: 660px;">
+                    <div class="nutri1">kcal<br>
+                        230</div>
+                    <div class="nutri2">fat<br>
+                        12g</div>
+                    <div class="nutri3">saturates<br>
+                        7g
+                        </div>
+                    <div class="nutri4">carbs<br>
+                        26g</div>
+                    <div class="nutri5">sugars<br>
+                        2g</div>
+                    <div class="nutri6">fibre<br>
+                        1g</div>
+                    <div class="nutri7">protein<br>
+                        6g</div>
+                    <div class="nutri8">salt<br>
+                        0.89g</div>
+                </div>
+            </span>
         </div>
+
+
         <div id="extra2" class="extra">
             <div>
                 <button class="exit" onclick="hideinfo()">X</button>
@@ -110,7 +142,79 @@
                     <li>Use a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving, splash in some more hot pasta water and the glossy sauciness will be revived.</li>
                 </ol>
             </span>
+            <span>
+                Nutrition:
+                <div class="nutri" style="display: flex;gap: 5px;text-align: center;width: 660px;">
+                    <div class="nutri1">kcal<br>
+                        655</div>
+                    <div class="nutri2">fat<br>
+                        31g</div>
+                    <div class="nutri3">saturates<br>
+                        16g
+                        </div>
+                    <div class="nutri4">carbs<br>
+                        66g</div>
+                    <div class="nutri5">sugars<br>
+                        0g</div>
+                    <div class="nutri6">fibre<br>
+                        3g</div>
+                    <div class="nutri7">protein<br>
+                        32g</div>
+                    <div class="nutri8">salt<br>
+                        2.02g</div>
+                </div>
+            </span>
         </div>
+
+        <div id="extra3" class="extra">
+            <div>
+                <button class="exit" onclick="hideinfo()">X</button>
+                <div class="info-title" id="info-title">Marbled Chocolate Brownies</div>
+            </div>
+            <div style="display: flex;justify-content: center;font-size: 30px;">Ingredients</div>
+            <hr style="width: 80%;border-color: black;">
+            <span id="info-main" class="info-main">
+                200g dark chocolate (70% cocoa), 200g white chocolate, 250g pack unsalted butter(cut into cubes), 300g golden caster sugar, 4 eggs(beaten), 140g plain flour
+            </span>
+            <div style="display: flex;justify-content: center;font-size: 30px; margin-top: 40px;">Recipe</div>
+            <hr style="width: 80%;border-color: black;">
+            <span id="info-facts" class="info-main">
+                <ol>
+                    <li>STEP 1
+                        Butter and line a 23cm square brownie tin (or a similar size rectangular tin) and heat oven to 180C/fan 160C/gas 4. Put the dark and white chocolates into two separate large bowls and add half of the butter to each. One bowl at a time, heat in the microwave on High for 1½ mins, stirring halfway, until the chocolate and butter are both melted. Alternatively, melt over a pan of simmering water (making sure the water doesn’t touch the base of the bowl). Stir until the chocolate and butter are totally incorporated.</li>
+                    <li>STEP 2
+                        Add 150g sugar and 2 beaten eggs to each bowl, then beat until smooth. Now stir 50g of the flour into the dark chocolate mix and the remaining 90g into the white mix.</li>
+                    <li>STEP 3
+                        Spoon tbsps of the batter into the tin, alternating dark and white chocolate to make a patchwork pattern of blobs. Once the bottom of the tin is covered, go over the first layer, spooning white on top of the dark blobs and dark on top of the white. To marble the brownies, pull a skewer through the pan several times to make feathery swirls.</li>
+                    <li>STEP 4
+                        Bake for 35 mins or until the middle of the brownie is just set and the white chocolate patches on top have a pale golden crust. Leave to cool completely in the tin before cutting into 16 squares. Will keep in an airtight container for up to 3 days, or freeze for up to 1 month.</li>
+                </ol>
+            </span>
+            <span>
+                Nutrition:
+                <div class="nutri" style="display: flex;gap: 5px;text-align: center;width: 660px;">
+                    <div class="nutri1">kcal<br>
+                        379</div>
+                    <div class="nutri2">fat<br>
+                        24g</div>
+                    <div class="nutri3">saturates<br>
+                        14g
+                        </div>
+                    <div class="nutri4">carbs<br>
+                        40g</div>
+                    <div class="nutri5">sugars<br>
+                        31g</div>
+                    <div class="nutri6">fibre<br>
+                        1g</div>
+                    <div class="nutri7">protein<br>
+                        5g</div>
+                    <div class="nutri8">salt<br>
+                        0.09g</div>
+                </div>
+            </span>
+        </div>
+
+
         <div class="header">
             <hr class="head-line">
             Menu
@@ -128,7 +232,8 @@
                     <div class="desc">
                         <span class="title">Garlic Bread</span>
                         <span class="info">
-                            Garlic bread consists of bread(usualy a baguette, sour dough, or a cibatta) topped with garlic and olive oil.<hr style="margin-bottom: 0px;width: 50%;">£10.50
+                            Garlic bread consists of bread(usualy a baguette, sour dough, or a cibatta) topped with garlic and olive oil.
+                            <hr style="margin-bottom: 0px;width: 50%;">£7.50
                         </span>
                     </div>
                     <img src="menu-pics/vegetarian.svg" class="veg-pic">
@@ -136,12 +241,13 @@
 
                 <div class="start-food" onclick="">
                     <div class="thumb">
-                        <img src="menu-pics/carbonara.webp" class="pic">
+                        <img src="menu-pics/onion.jpg" class="pic">
                     </div>
                     <div class="desc">
-                        <span class="title">Carbonara</span>
+                        <span class="title">Onion Bhaji</span>
                         <span class="info">
-                            Fondue is a melted cheese dish served in a big pot over a portable stove, and eaten by dipping bread into the cheese.<hr style="margin-bottom: 0px;width: 50%;">£10.50
+                            A bhaji is a type of fritter originating from the Indian subcontinent. It is made from spicy hot vegetables, commonly onion, and has several variants.
+                            <hr style="margin-bottom: 0px;width: 50%;">£7.50
                         </span>
                     </div>
                 </div>
@@ -158,20 +264,20 @@
                         <span class="title">Carbonara</span>
                         <span class="info">
                             Spaghetti carbonara is an main course consisting of spaghetti with bacon and a creamy sauce made from eggs, Pecorino or Parmesan and black pepper.
-                            <hr style="margin-bottom: 0;width: 50%;margin-top: -5px;"> £10.50 
+                            <hr style="margin-bottom: 0;width: 50%;margin-top: -3px;"> £10.50 
                         </span>
                     </div>
                 </div>
 
                 <div class="main-food">
                     <div class="thumb">
-                        <img src="menu-pics/garlicbread.jpeg" class="pic">
+                        <img src="menu-pics/mac and cheese.jpg" class="pic">
                     </div>
                     <div class="desc">
-                        <span class="title">Garlic Bread</span>
+                        <span class="title">Mac n' cheese</span>
                         <span class="info">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                            Praesent feugiat quis nisi ut ullamcorper.<br> Sed suscipit pulvinar cursus. 
+                            A pasta dish made from a cheesy sauce, usualy consisting of various cheeses, to create a warm and tasty meal
+                            <hr style="margin-bottom: 0px;width: 50%;"> £10.50 
                         </span>
                     </div>
                 </div>
@@ -180,28 +286,28 @@
 
 
             <div class="deserts">
-                <div class="end-food">
+                <div class="end-food" onclick="brownie()">
                     <div class="thumb">
-                        <img src="menu-pics/garlicbread.jpeg" class="pic">
+                        <img src="menu-pics/chocobrownies.webp" class="pic">
                     </div>
                     <div class="desc">
-                        <span class="title">Garlic Bread</span>
+                        <span class="title">Marbled Chocolate Brownies</span>
                         <span class="info">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                            Praesent feugiat quis nisi ut ullamcorper.<br> Sed suscipit pulvinar cursus. 
+                            Your average gooey choclat brownies with a new twist of milk and white choclate marbled to give it a new and interesting flavour
+                            <hr style="margin-bottom: 0px;width: 50%;"> £7.50 
                         </span>
                     </div>
                 </div>
                 
                 <div class="end-food">
                     <div class="thumb">
-                        <img src="menu-pics/garlicbread.jpeg" class="pic">
+                        <img src="menu-pics/chocolate.jpg" class="pic">
                     </div>
                     <div class="desc">
-                        <span class="title">Garlic Bread</span>
+                        <span class="title">Choclate Cake</span>
                         <span class="info">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                            Praesent feugiat quis nisi ut ullamcorper.<br> Sed suscipit pulvinar cursus. 
+                            A sponge cake flavoured with cooking choclate and topped with even more choclate to create a rich chocolatly heaven 
+                            <hr style="margin-bottom: 0px;width: 50%;"> £7.50  
                         </span>
                     </div>
                 </div>
